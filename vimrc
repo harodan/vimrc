@@ -21,12 +21,6 @@ nnoremap gp `[v`]
 set esckeys
 set pastetoggle=<F2>
 
-" Pathogen load
-filetype off
-
-call pathogen#infect()
-call pathogen#helptags()
-
 filetype plugin indent on
 syntax on
 let g:pymode_options_max_line_length = 120
